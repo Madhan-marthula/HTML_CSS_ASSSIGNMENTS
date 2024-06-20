@@ -1,0 +1,215 @@
+<html>
+    <head>
+        <style>
+           .album{
+            text-align: center;
+            width: 50%;
+            margin-left: 25%;
+            padding-bottom: 70px;
+            }
+           .album .main{
+            background-color: lightblue;
+           }
+           .group{
+              display: flex;
+              flex-wrap: wrap;
+              gap: 20px;
+              justify-content: center;
+              align-items: center;
+                      
+           }
+           .group li{
+           width: 400px;
+           border-radius: 10px;
+           box-sizing: border-box;
+            border: 1px solid;
+            list-style: none;
+            overflow: hidden;
+        }
+        .group .thumb{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           height: 200px;
+           background-color: lightgray;
+        }
+        .group .wide{
+           padding: 10px;
+           text-align: center;
+        }
+        .group .web{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+
+        }
+        .group .web .btns{
+            display: flex;
+            border: 1px solid;
+            align-items: center;
+            border-radius: 5px;
+
+        }
+        .group .web .btns div{
+            padding: 10px;
+        }
+        .group .web .btns div:hover{
+            background-color: gray;
+            transition: 0.30s;
+        }
+        .group .web .btns div:first-of-type{
+            border-right: 1px solid;
+        }
+        @media (min-width:1200px) and (max-width: 1300px){
+         .group li{
+                 width: 450px;
+                 
+            }
+        }
+        @media (max-width:940px)
+        {
+            .group{
+                justify-content: center;
+            }
+            .group li{
+                width: 90%;
+            }
+        }
+
+        
+
+          
+        </style>
+    </head>
+    <body>
+        <div class="album">
+            
+            <h1>Album example</h1>
+            <p>Something short and leading about the collection below—its contents, 
+            the creator, etc. Make it short and sweet, 
+            but not too short so folks 
+            don’t simply skip over it entirely.</p>
+            <button class="main">main call to action</button>
+            <button class="action">secondary action</button>
+      </div>
+      <ul class="group">
+        <li>
+            <div class="thumb">
+                <p>thumbnail</p> 
+            </div>
+            <p class="wide">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. </p>
+            <div class="web">
+             <div class="btns">
+            <div>view</div>
+            <div>edit</div>
+        </div>
+            <div>9 mins</div>
+        </div>
+        </li>
+        <li>
+            <div class="thumb">
+                <p>thumbnail</p> 
+            </div>
+            <p class="wide">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. </p>
+            <div class="web">
+            <div class="btns">
+            <div>view</div>
+            <div>edit</div>
+        </div>
+            <div>9 mins</div>
+        </div>
+        </li>
+        <li>
+            <div class="thumb">
+                <p>thumbnail</p> 
+            </div>
+            <p class="wide">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. </p>
+            <div class="web">
+            <div class="btns">
+            <div>view</div>
+            <div>edit</div>
+        </div>
+            <div>9 mins</div>
+        </div>
+        </li>
+        <li>
+            <div  class="thumb">
+                <p>thumbnail</p> 
+            </div>
+            <p class="wide">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. </p>
+            <div class="web">
+                <div class="btns">
+            <div>view</div>
+            <div>edit</div>
+        </div>
+            <div>9 mins</div>
+        </div>
+        </li>
+        <li>
+            <div  class="thumb">
+                <p>thumbnail</p> 
+            </div>
+            <p class="wide">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. </p>
+            <div class="web">
+                <div class="btns">
+            <div>view</div>
+            <div>edit</div>
+        </div>
+            <div>9 mins</div>
+        </div>
+        </li>
+        <li>
+            <div  class="thumb">
+                <p>thumbnail</p> 
+            </div>
+            <p class="wide">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. </p>
+            <div class="web">
+                <div class="btns">
+            <div>view</div>
+            <div>edit</div>
+        </div>
+            <div>9 mins</div>
+        </div>
+        </li>
+        <li>
+            <div  class="thumb">
+                <p>thumbnail</p> 
+            </div>
+            <p class="wide">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. </p>
+            <div class="web">
+                <div class="btns">
+            <div>view</div>
+            <div>edit</div>
+        </div>
+            <div>9 mins</div>
+        </div>
+        </li>
+        <li>
+            <div class="thumb">
+                <p>thumbnail</p> 
+            </div>
+            <p class="wide">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. </p>
+            <div class="web">
+                <div class="btns">
+            <div>view</div>
+            <div>edit</div>
+        </div>
+            <div>9 mins</div>
+            </div>
+        </li>
+        <li>
+            <div class="thumb">
+                <p>thumbnail</p> 
+            </div>
+            <p class="wide">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. </p>
+            <div class="web">
+                <div class="btns">
+            <div>view</div>
+            <div>edit</div>
+        </div>
+            <div>9 mins</div>
+        </div>
+        </li>
+      </ul>
+    </body>
+</html>
